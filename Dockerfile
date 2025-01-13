@@ -1,5 +1,5 @@
 FROM python:3.13.0
-WORKDIR /TesteTecnicoPokemon
+WORKDIR /testetecnicopokemon
 COPY .  . 
 RUN pip install requests
 RUN pip install IPython
