@@ -2,9 +2,9 @@
 2. download repositorio do git
 3. executar docker
 4. executar comandos:
-> docker build -t testetecnicopokemon-python .
-> docker run -it testetecnicopokemon-python
-> docker run --rm -v "$(pwd):/app" testetecnicopokemon-python
+   01. docker build -t testetecnicopokemon-python .
+   02. docker run -it testetecnicopokemon-python
+   03. docker run --rm -v "$(pwd):/app" testetecnicopokemon-python
 
 
 
